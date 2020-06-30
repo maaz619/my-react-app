@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+}
+.quote-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 60%;
+    background: white;
+    border-radius: 20px;
+}
+.button-refresh {
+    padding: 28px;
+}
+.refresher {
+    background: #4bb543;
+    font-size: medium;
+    font-weight: 20px;
+    font-family: Helvetica;
+    width:6em;
+    height: 150%;
+    border-style: double;
+    border-radius: .3em;
+    border: none;
+    
+}
+.refresher:focus{
+    outline: 0;
+    text-shadow: none;
+}
+.refresher:hover{
+    cursor: pointer;
+}
+.quote-content{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500%;
+    margin: 10px;
+}
