@@ -23,11 +23,11 @@ class Home extends Component{
         return(
         <div className="container">
             <div className="quote-box">
-                <div className="quote-content">
-                    {this.state.quote}
+                <div className="quote-container">
+                    <div className="quote-content">{this.state.quote}</div>
                 </div>
                 <div className="button-refresh">
-                    <button class="refresher" onClick={this.handleClick}>GET NEW</button>
+                    <button className="refresher" onClick={this.handleClick}>GET NEW</button>
                 </div>
             </div>
         </div>

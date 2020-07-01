@@ -9,18 +9,20 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 50%;
-    height: 60%;
+    width: 50vh;
+    height: 50vh;
     background: white;
-    border-radius: 20px;
+    border-radius: 25px;
 }
 .button-refresh {
-    padding: 28px;
+    padding: 20px;
+    position: sticky;
 }
 .refresher {
-    background: #4bb543;
+    background: #377dda;
+    color: rgb(250, 249, 249);
     font-size: medium;
-    font-weight: 20px;
+    font-weight: 100;
     font-family: Helvetica;
     width:6em;
     height: 150%;
@@ -28,6 +30,14 @@
     border-radius: .3em;
     border: none;
     
+}
+.quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60vw;
+    height: 30vh;  
 }
 .refresher:focus{
     outline: 0;
@@ -38,7 +48,6 @@
 }
 .quote-content{
     font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500%;
-    margin: 10px;
+    font-family: Helvetica;
+    text-align: center;
 }
