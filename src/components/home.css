@@ -9,8 +9,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 50vw;
-    height: 50vh;
+    width: 50%;
+    height: 50%;
     background: white;
     border-radius: 25px;
 }
@@ -27,7 +27,7 @@
     text-align: center;
 }
 .button-refresh {
-    padding-bottom: 20px;
+    padding: 0;
     position: sticky;
 }
 .refresher {
@@ -36,9 +36,8 @@
     font-size: medium;
     font-weight: 100;
     font-family: Helvetica;
-    width:6em;
-    height: 150%;
-    border-style: double;
+    width:10vw;
+    height: 10vh;
     border-radius: .3em;
     border: none;
     
