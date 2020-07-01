@@ -8,7 +8,6 @@ const Navbar = () => {
                 <div className="nav-bar-items">Home</div>
                 <div className="nav-bar-items">About</div>
                 <div className="nav-bar-items">Contact</div>
-                <div className="nav-bar-items">Login</div>
             </nav>
         </div>
     )
