@@ -33,8 +33,11 @@
 }
 .nav-bar-items:hover{
     border-radius: 5px;
-    cursor: pointer;
     background-color: rgb(125, 231, 125);
+}
+.link {
+    text-decoration: none;
+    color: black;
 }
 /* .nav-bar > #login {
     display: flex;
