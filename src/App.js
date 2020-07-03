@@ -6,7 +6,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Login from "./components/Login";
 import Register from "./components/Register";
-import {BrowserRouter as Router, Switch, Route, Redirect} from "react-router-dom"
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom"
 
 class App extends Component{
     render(){
