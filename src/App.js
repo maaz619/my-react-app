@@ -22,6 +22,11 @@ class App extends Component{
                         <Route path="/login" exact component={Login} />
                         <Route path="/register" exact component={Register} />
                         <Redirect from="/" exact to="/home" />
+                        <Redirect from="/home" exact to="/home" />
+                        <Redirect from="/about" exact to="/about" />
+                        <Redirect from="/contact" exact to="/contact" />
+                        <Redirect from="/login" exact to="/login" />
+                        <Redirect from="/register" exact to="/register" />
                     </Switch>
                 </Router>
             </div>
