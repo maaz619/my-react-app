@@ -1,6 +1,7 @@
 import React, {Component} from "react";
-import axios from "axios"
-import "./home.css"
+import axios from "axios";
+import "./home.css";
+import "bootstrap/dist/css/bootstrap.min.css"
 
 class Home extends Component{
     constructor(props){
@@ -27,7 +28,7 @@ class Home extends Component{
                     <div className="quote-content">{this.state.quote}</div>
                 </div>
                 <div className="button-refresh">
-                    <button className="refresher" onClick={this.handleClick}>GET NEW</button>
+                    <button className="btn btn-primary" onClick={this.handleClick}>GET NEW</button>
                 </div>
             </div>
         </div>
