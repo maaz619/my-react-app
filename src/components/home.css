@@ -12,7 +12,7 @@
     width: 50%;
     height: 50%;
     background:white;
-    border-radius: 25px;
+    border-radius: 5px;
 }
 .quote-container {
     display: flex;
@@ -48,7 +48,6 @@
 }
 .refresher:hover{
     cursor: pointer;
-    color: black;
 }
 @media only screen and (max-width: 500px){
     .quote-box {
@@ -56,7 +55,7 @@
         height: 50%;
     }
     .quote-content {
-        font-size: 25px;
+        font-size: 22px;
     }
     .refresher {
         width: 100%;
