@@ -1,12 +1,9 @@
-html{
-  background-color: #00ffff;
-  height: 100%;
+html,body,#root{
+  background-color: cyan;
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Raleway',sans-serif;
 }
 body{
-  height: 100%;
   margin: 0;
 }
- #root{
-   height: 100%;
-   margin: 0;
- }
