@@ -20,5 +20,6 @@
   @media only screen and (max-width:500px) {
     .form {
       width: 80vw;
+      padding: 18px;
     }
   }
